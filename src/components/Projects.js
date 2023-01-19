@@ -74,6 +74,7 @@ export const Projects = () => {
                               <ProjectCard
                                 key={index}
                                 {...project}
+                                onClick={() => window.open(project.link, "_blank")}
                                 />
                             )
                           })

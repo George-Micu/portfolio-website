@@ -62,7 +62,7 @@ export const Contact = () => {
             <TrackVisibility>
 
                 <div>
-                <h2>Get In Touch</h2>
+                <h2>Let's Get In Touch</h2>
                 <form ref={form} onSubmit={sendEmail}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
