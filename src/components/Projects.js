@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/logo.png";
-import projImg2 from "../assets/img/logo.png";
-import projImg3 from "../assets/img/logo.png";
+import projImg1 from "../assets/img/logo-svg.svg";
+import projImg2 from "../assets/img/logo-svg.svg";
+import projImg3 from "../assets/img/logo-svg.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -14,6 +14,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg1,
+      link: "https://www.svgrepo.com/svg/391865/github"
     },
     {
       title: "Business Startup",
@@ -43,7 +44,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="projects" id="projects">
       <Container>
         <Row>
           <Col size={12}>

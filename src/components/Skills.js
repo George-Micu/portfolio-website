@@ -1,10 +1,8 @@
-import meter1 from "../assets/img/logo.png";
-import meter2 from "../assets/img/logo.png";
-import meter3 from "../assets/img/logo.png";
+import meter1 from "../assets/img/logo-svg.svg";
+import meter2 from "../assets/img/logo-svg.svg";
+import meter3 from "../assets/img/logo-svg.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/logo.png";
-import arrow2 from "../assets/img/logo.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {

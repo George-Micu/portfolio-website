@@ -55,9 +55,11 @@ export const Banner = () => {
             <TrackVisibility>
               <div className="animate__animated animate__fadeIn animate__slower">
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Alex.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Full-Stack Web Dev", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Alex.`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Full-Stack Web Dev", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <a href='#connect'>
+                  <button>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  </a>
               </div>
             </TrackVisibility>
           </Col>
