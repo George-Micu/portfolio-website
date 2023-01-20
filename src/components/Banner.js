@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Full-Stack Web Dev", "Web Designer" ];
-  const period = 600;
+  const period = 2000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -41,7 +41,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(900);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -56,7 +56,8 @@ export const Banner = () => {
               <div className="animate__animated animate__fadeIn animate__slower">
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Alex.`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Full-Stack Web Dev", "Web Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Full Stack Web Developer with a passion for creating beautiful, functional websites and web applications.  I have experience in various technologies and frameworks such as React, NodeJS,
+                     Ruby and Rails.<br />I am always eager to take on new challenges and expand my skillset, and I am excited to bring my passion and expertise to your next project</p>
                   <a href='#connect'>
                   <button>Let’s Connect <ArrowRightCircle size={25} /></button>
                   </a>
