@@ -326,17 +326,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
+  top: 0%;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 30%;
   z-index: -4;
 }
+
 /************ Projects ************/
-.project {
+.projects {
   padding: 80px 0;
   position: relative;
-  background-color: black;
 }
 
 .project-card:hover {
@@ -365,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .projects .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .projects .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -462,7 +462,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
-/************ Projects Css ************/
+/************ contact ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
